@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="shortcut icon" href="imagenes/logoAl.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <img src="imagenes/logoAl.png" alt="Logo de Alura" class="logo_alura">
+        </header>
+        
+        <div class="Encriptar">
+            <textarea name="texto" class="texto" id="texto" cols="30" rows="10" 
+            placeholder="Ingrese el texto aquí..."></textarea>
+        </div>
+
+        <div class="aviso">
+            <img src="imagenes/aviso.png" alt="Imagen de alerta">
+            <p>Solo letras minúsculas y sin acentos.</p>
+        </div>
+
+        <div class="botones">
+            <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar
+            </button>
+            <button class="btn-desencriptar" type="button" onclick="desencriptar()">Desencriptar
+            </button>
+        </div>
+
+        <div class="encriptado">
+            <img src="imagenes//Muñecolupa.png" alt="muñeco con una lupa en las manos" id="muneco">
+            <div class="mensaje-encriptado" id="mensaje-encriptado">
+                <h2 id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
+                <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+
+            <textarea readonly id="evaluar" cols="30" rows="10"></textarea>
+            <button class="btn-copiar" id="btn-copiar" type="button" onclick="copiado()">Copiar</button>
+        </div>
+        <footer>
+            <p class="rodapie">&copy;Copyright 2024 - Desarrollado por Nickolle Silva </p>
+        </footer>
+        <script src = "script.js"></script>
+    </div>
+</body>
+</html>
