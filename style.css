@@ -78,13 +78,13 @@
     top: 73%;
 }
 .aviso img{
-    width: 23px;
+    width: 20px;
 }
 .aviso p{
     font-family: "inter", sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 23px;
+    font-weight: 380;
+    font-size: 20px;
     line-height: 150%;
     color: var(--color-cinco);
     flex: none;
@@ -117,6 +117,7 @@
     text-align: center;
     color: var(--color-cinco);
     cursor: pointer;
+    font-weight: 550;
     font-style:oblique;
 }
 
@@ -132,7 +133,7 @@
     border: 1px solid var(--color-seis);
     border-radius: 24px;
     font-family: "inter", sans-serif;
-    font-weight: 400;
+    font-weight: 550;
     font-size: 18px;
     line-height: 19px;
     text-align: center;
@@ -156,8 +157,8 @@
     top: 94%;
     text-align: center;
     font-family: "inter";
-    font-style:italic;
-    font-weight: 800;
+    font-style:inherit;
+    font-weight: 400;
     font-size: 17px;
     line-height: 150%;
     opacity: 0.8;
